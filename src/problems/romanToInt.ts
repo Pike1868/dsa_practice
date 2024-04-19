@@ -9,7 +9,7 @@ interface RomanHash{
 
  */
 
-    function romanToInt(s:string):number{
+    export function romanToInt(s:string):number{
         const romanHash:RomanHash = {
             i:1,
             v:5,
@@ -45,9 +45,3 @@ interface RomanHash{
         }
         return total;
     }
-
-    console.log(romanToInt("MXIV"))//1014
-    console.log(romanToInt("IX"))//9
-    console.log(romanToInt("LVIII"))//58
-    console.log(romanToInt("MCMXCIII")) //1993
-    console.log(romanToInt("MCMXCIV"))

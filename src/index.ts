@@ -1,6 +1,7 @@
 // index.ts
 import { romanToInt } from './problems/romanToInt';
 import { isPalindrome } from './problems/palindromeNumber';
+import { gcd } from './problems/greatestCommonDivisor'
 
 //RomanToInt Problem
 // console.log("Roman to Integer MXIV",romanToInt("MXIV"))//1014
@@ -17,3 +18,10 @@ import { isPalindrome } from './problems/palindromeNumber';
 // console.log("Is 4444444 a palindrome?:", isPalindrome(4444444) === true) 
 // console.log('Is 1 a palindrome?:', isPalindrome(1) === true); 
 // console.log('Is 12 a palindrome?:', isPalindrome(12) === false); 
+
+
+//Greatest Common Divisor Problem
+
+console.log(gcd("ABCABC", "ABCABCABC"));
+console.log(gcd("ABABAB", "ABAB"));
+console.log(gcd("LEET", "CODE"));

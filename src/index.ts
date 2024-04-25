@@ -2,6 +2,7 @@
 import { romanToInt } from './problems/romanToInt';
 import { isPalindrome } from './problems/palindromeNumber';
 import { gcd } from './problems/greatestCommonDivisor'
+import { longestCommonPrefix } from "./problems/longestCommonPrefix"
 
 //RomanToInt Problem
 // console.log("Roman to Integer MXIV",romanToInt("MXIV"))//1014
@@ -22,6 +23,12 @@ import { gcd } from './problems/greatestCommonDivisor'
 
 //Greatest Common Divisor Problem
 
-console.log(gcd("ABCABC", "ABCABCABC"));
-console.log(gcd("ABABAB", "ABAB"));
-console.log(gcd("LEET", "CODE"));
+// console.log(gcd("ABCABC", "ABCABCABC"));
+// console.log(gcd("ABABAB", "ABAB"));
+// console.log(gcd("LEET", "CODE"));
+
+//Longest Common Prefix Problem
+
+// console.log(longestCommonPrefix(["flower", "flow", "flight"]))
+// console.log(longestCommonPrefix(["dog", "racecar", "car"]))
+// console.log(longestCommonPrefix(["march", "marker", "market", "marriage", "marsh", "mary"]))

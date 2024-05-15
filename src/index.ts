@@ -3,6 +3,7 @@ import { romanToInt } from './problems/romanToInt';
 import { isPalindrome } from './problems/palindromeNumber';
 import { gcd } from './problems/greatestCommonDivisor'
 import { longestCommonPrefix } from "./problems/longestCommonPrefix"
+import { mergeStringsAlt } from './problems/mergeStringsAlternately';
 
 //RomanToInt Problem
 // console.log("Roman to Integer MXIV",romanToInt("MXIV"))//1014
@@ -32,3 +33,8 @@ import { longestCommonPrefix } from "./problems/longestCommonPrefix"
 // console.log(longestCommonPrefix(["flower", "flow", "flight"]))
 // console.log(longestCommonPrefix(["dog", "racecar", "car"]))
 // console.log(longestCommonPrefix(["march", "marker", "market", "marriage", "marsh", "mary"]))
+
+//Merge Strings Alternately Problem
+console.log(mergeStringsAlt("abc", "pqr"))
+console.log(mergeStringsAlt("hello", "world"))
+console.log(mergeStringsAlt("abcdefg", "pqr"))

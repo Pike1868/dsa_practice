@@ -1,0 +1,1 @@
+import {kidsWithCandies} from "../problems/greatestNumberOfCandies"

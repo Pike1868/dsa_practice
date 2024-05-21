@@ -4,6 +4,7 @@ import { isPalindrome } from './problems/palindromeNumber';
 import { gcd } from './problems/greatestCommonDivisor'
 import { longestCommonPrefix } from "./problems/longestCommonPrefix"
 import { mergeStringsAlt } from './problems/mergeStringsAlternately';
+import { kidsWithCandies } from './problems/greatestNumberOfCandies';
 
 //RomanToInt Problem
 // console.log("Roman to Integer MXIV",romanToInt("MXIV"))//1014
@@ -35,6 +36,10 @@ import { mergeStringsAlt } from './problems/mergeStringsAlternately';
 // console.log(longestCommonPrefix(["march", "marker", "market", "marriage", "marsh", "mary"]))
 
 //Merge Strings Alternately Problem
-console.log(mergeStringsAlt("abc", "pqr"))
-console.log(mergeStringsAlt("hello", "world"))
-console.log(mergeStringsAlt("abcdefg", "pqr"))
+// console.log(mergeStringsAlt("abc", "pqr"))
+// console.log(mergeStringsAlt("hello", "world"))
+// console.log(mergeStringsAlt("abcdefg", "pqr"))
+
+//Kids with Candies Problem
+kidsWithCandies([2, 3, 5, 1, 3], 3)
+kidsWithCandies([4, 2, 1, 1, 2], 1)

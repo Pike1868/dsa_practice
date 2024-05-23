@@ -33,6 +33,5 @@ export function kidsWithCandies(candies: number[], extraCandies: number): boolea
         const currNumCandies = candies[i] + extraCandies;
         result.push(currNumCandies >= greatestNumCandies ? true : false);
     }
-    console.log(result)
     return result
 }

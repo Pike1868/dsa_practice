@@ -41,5 +41,5 @@ import { kidsWithCandies } from './problems/greatestNumberOfCandies';
 // console.log(mergeStringsAlt("abcdefg", "pqr"))
 
 //Kids with Candies Problem
-kidsWithCandies([2, 3, 5, 1, 3], 3)
-kidsWithCandies([4, 2, 1, 1, 2], 1)
+// kidsWithCandies([2, 3, 5, 1, 3], 3)
+// kidsWithCandies([4, 2, 1, 1, 2], 1)
